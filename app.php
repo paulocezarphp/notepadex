@@ -1,6 +1,6 @@
 <?php
 
-   $app_operation = $_POST['app'];
+   @$app_operation = $_POST['app'];
 
    if($app_operation == "validate_login"){
 
