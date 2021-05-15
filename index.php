@@ -10,8 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="app/system/css/style_mobile.css">
 	<link rel="stylesheet" type="text/css" href="app/system/css/style_desktop.css">
 	<?php include("app/system/php/theme_style.php"); ?>
+    <?php include("app/system/php/colors_blocks.php"); ?>
 	<?php
-        $receive_validator_login = false;
+        $receive_validator_login = true;
         function BodyColor($receive){
            if($receive == false){
                echo ' style="background:#333;" ';

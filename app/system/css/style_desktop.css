@@ -3,6 +3,51 @@ body{
 	margin: 0px;
 }
 
+.container{
+    width: 1024px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.container-group{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;   
+}
+
+.container-item{
+    
+    color: rgba(0, 0, 0, 0.7);
+    height: 200px;
+    margin: 5px;
+}
+
+.container-item-group{
+    display: grid;
+    grid-template-columns: auto 30px 30px;
+    padding: 10px;
+    background: rgba(0,0,0, 0.1);
+}
+
+.container-item-title{
+	
+}
+
+.container-item-title-text{
+	position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.container-item-icon{
+	text-align: right;
+}
+
+.container-item-context{
+	padding: 15px;
+}
+
+
 /*------------------------------------------
 lOGIN STYLE
 ------------------------------------------*/
