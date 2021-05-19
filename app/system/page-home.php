@@ -1,4 +1,6 @@
+<?php include("menu.php"); ?>
 <div class="container">
+
 	<div class="container-group">
 		
 		<div class="container-item" style="background: <?php echo $blocks_list[0]; ?>;">
