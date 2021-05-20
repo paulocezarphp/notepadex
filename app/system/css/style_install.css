@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+.install{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 400px;
+    border-radius: 4px;
+}
+
+.install-group{
+    padding: 20px;
+}
+
+.install-title{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 0px;
+    color: #444;
+}
+
+.install-description{
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.install-item{
+
+}
+
+.install-label{
+   display: block;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 14px;
+}
+
+.install-input{
+   padding: 7px 10px;
+   width: 95%;
+   border: none;
+   background: #f2f2f2;
+   outline: none;
+   color: #339911;
+}
+
+.install-bottom-group{
+   display: grid;
+   grid-template-columns: 48% 4% 48%;
+
+}
+
+.install-bottom{
+   background: #331199;
+   color: #fff;
+   font-size: 14px;
+   border: none;
+   outline: none;
+   width: 100%;
+   padding: 15px 10px;
+   margin-top: 20px;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.install-bottom2{
+   background: #339911;
+   color: #fff;
+   font-size: 14px;
+   border: none;
+   outline: none;
+   width: 100%;
+   padding: 15px 10px;
+   margin-top: 20px;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+
