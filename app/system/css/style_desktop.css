@@ -5,29 +5,28 @@ body{
 
 .container{
 	margin-top: 80px;
-    width: 1024px;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
+	width: 1024px;
+	position: relative;
+	transform: translateX(-50%);
+	left: 50%;
 }
 
 .container-group{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;   
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;   
 }
 
 .container-item{
-    
-    color: rgba(0, 0, 0, 0.7);
-    height: 200px;
-    margin: 5px;
+	color: rgba(0, 0, 0, 0.7);
+	height: 200px;
+	margin: 5px;
 }
 
 .container-item-group{
-    display: grid;
-    grid-template-columns: auto 30px 30px;
-    padding: 10px;
-    background: rgba(0,0,0, 0.1);
+	display: grid;
+	grid-template-columns: auto 30px 30px;
+	padding: 10px;
+	background: rgba(0,0,0, 0.1);
 }
 
 .container-item-title{
@@ -36,12 +35,27 @@ body{
 
 .container-item-title-text{
 	position: relative;
-    transform: translateY(-50%);
-    top: 50%;
+	transform: translateY(-50%);
+	top: 50%;
 }
 
 .container-item-icon{
 	text-align: right;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.item-icon:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+.item-icon:active{
+	color: #111;
 }
 
 .container-item-context{
@@ -52,19 +66,19 @@ body{
 lOGIN STYLE
 ------------------------------------------*/
 .menu{
-   width: 100%;
-   position: fixed;
-   top: 0px;
-   left: 0px;
-   z-index: 100;
-   -webkit-box-shadow: 0px 3px 5px 0px rgba(194,194,194,0.5);
-   -moz-box-shadow: 0px 3px 5px 0px rgba(194,194,194,0.5);
-   box-shadow: 0px 3px 5px 0px rgba(194,194,194,0.5);
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(194,194,194,0.5);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(194,194,194,0.5);
+	box-shadow: 0px 3px 5px 0px rgba(194,194,194,0.5);
 }
 
 .menu-item{
-   padding: 14px 20px;
-   font-weight: 800;
+	padding: 14px 20px;
+	font-weight: 800;
 }
 
 /*------------------------------------------

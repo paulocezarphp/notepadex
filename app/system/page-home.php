@@ -8,8 +8,8 @@
 				<div class="container-item-title">
 				   <div class="container-item-title-text">Notepad</div>
 			    </div>
-				<div class="container-item-icon">&#9998;</div>
-				<div class="container-item-icon">&#10006;</div>
+				<div class="container-item-icon"><span class="item-icon">&#9998;</span></div>
+				<div class="container-item-icon"><span class="item-icon">&#10006;</span></div>
 			</div>
 			<div class="container-item-context">
 				trum quam lorem quisque etiam ultrices tellus ut, leo tincidunt dictum turpis 
@@ -23,8 +23,8 @@
 				<div class="container-item-title">
 				   <div class="container-item-title-text">Notepad</div>
 			    </div>
-				<div class="container-item-icon">&#9998;</div>
-				<div class="container-item-icon">&#10006;</div>
+				<div class="container-item-icon"><span class="item-icon">&#9998;</span></div>
+				<div class="container-item-icon"><span class="item-icon">&#10006;</span></div>
 			</div>
 			<div class="container-item-context">
 				trum quam lorem quisque etiam ultrices tellus ut, leo tincidunt dictum turpis 
@@ -38,8 +38,8 @@
 				<div class="container-item-title">
 				   <div class="container-item-title-text">Notepad</div>
 			    </div>
-				<div class="container-item-icon">&#9998;</div>
-				<div class="container-item-icon">&#10006;</div>
+				<div class="container-item-icon"><span class="item-icon">&#9998;</span></div>
+				<div class="container-item-icon"><span class="item-icon">&#10006;</span></div>
 			</div>
 			<div class="container-item-context">
 				trum quam lorem quisque etiam ultrices tellus ut, leo tincidunt dictum turpis 
@@ -53,8 +53,8 @@
 				<div class="container-item-title">
 				   <div class="container-item-title-text">Notepad</div>
 			    </div>
-				<div class="container-item-icon">&#9998;</div>
-				<div class="container-item-icon">&#10006;</div>
+				<div class="container-item-icon"><span class="item-icon">&#9998;</span></div>
+				<div class="container-item-icon"><span class="item-icon">&#10006;</span></div>
 			</div>
 			<div class="container-item-context">
 				trum quam lorem quisque etiam ultrices tellus ut, leo tincidunt dictum turpis 
@@ -68,8 +68,8 @@
 				<div class="container-item-title">
 				   <div class="container-item-title-text">Notepad</div>
 			    </div>
-				<div class="container-item-icon">&#9998;</div>
-				<div class="container-item-icon">&#10006;</div>
+				<div class="container-item-icon"><span class="item-icon">&#9998;</span></div>
+				<div class="container-item-icon"><span class="item-icon">&#10006;</span></div>
 			</div>
 			<div class="container-item-context">
 				trum quam lorem quisque etiam ultrices tellus ut, leo tincidunt dictum turpis 
@@ -83,8 +83,8 @@
 				<div class="container-item-title">
 				   <div class="container-item-title-text">Notepad</div>
 			    </div>
-				<div class="container-item-icon">&#9998;</div>
-				<div class="container-item-icon">&#10006;</div>
+				<div class="container-item-icon"><span class="item-icon">&#9998;</span></div>
+				<div class="container-item-icon"><span class="item-icon">&#10006;</span></div>
 			</div>
 			<div class="container-item-context">
 				trum quam lorem quisque etiam ultrices tellus ut, leo tincidunt dictum turpis 
@@ -98,8 +98,8 @@
 				<div class="container-item-title">
 				   <div class="container-item-title-text">Notepad</div>
 			    </div>
-				<div class="container-item-icon">&#9998;</div>
-				<div class="container-item-icon">&#10006;</div>
+				<div class="container-item-icon"><span class="item-icon">&#9998;</span></div>
+				<div class="container-item-icon"><span class="item-icon">&#10006;</span></div>
 			</div>
 			<div class="container-item-context">
 				trum quam lorem quisque etiam ultrices tellus ut, leo tincidunt dictum turpis 

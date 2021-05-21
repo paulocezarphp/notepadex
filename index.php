@@ -31,7 +31,8 @@
         }
 
     ?>
-
-    <script type="text/javascript" src="app/system/js/script.js"></script>
+    
+    <script type="text/javascript" src="app/system/javascript/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="app/system/javascript/script.js"></script>
 </body>
 </html>
