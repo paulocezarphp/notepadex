@@ -27,6 +27,15 @@
     		<label class="install-label">Database Password</label>
     		<input type="text" name="" class="install-input" autocomplete="off" placeholder="...">
     	</div>   
+        <div class="install-item">
+            <div class="install-terms">           
+               <input type="checkbox" name="">
+               <a href="terms" target="_blank">I accept the terms</a>
+            </div>
+        </div> 
+        <div class="install-item">
+            <div class="install-info"></div>
+        </div> 
     	<div class="install-bottom-group">
     		<button type="submit" class="install-bottom">Teste DataBase</button>
     		<div></div>

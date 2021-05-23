@@ -84,4 +84,13 @@ body{
    cursor: pointer;
 }
 
+.install-info{
+   padding: 10px 11px;
+   margin-top: 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
 
+.install-terms{
+   margin-top: 15px;
+}
