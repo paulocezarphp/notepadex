@@ -5,6 +5,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: #008ae6;
+}
+
+a:hover{
+    color: #005c99;
+}
+
 .install{
     position: absolute;
     transform: translate(-50%, -50%);

@@ -25,7 +25,8 @@ function Install_System($db_name, $db_hostname, $db_user, $db_password, $db_pref
         permission VARCHAR(55),
         registrationdate DATETIME, 
         lastacess VARCHAR(55),
-        colortheme VARCHAR(50),
+        colortheme VARCHAR(50),    
+        language VARCHAR(10),
         status VARCHAR(10)
         )DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;");
 
@@ -48,6 +49,16 @@ function Install_System($db_name, $db_hostname, $db_user, $db_password, $db_pref
         if($card->execute()){ $db_validation_cont++; }
 
 
+        $config = $conn->prepare("CREATE TABLE IF NOT EXISTS {$db_prefix}_config(
+        id BIGINT AUTO_INCREMENT PRIMARY KEY,
+        url_host VARCHAR(800),       
+        create_system VARCHAR(30)
+        )DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;");
+
+        $config->execute();
+        if($config->execute()){ $db_validation_cont++; }
+
+
         $input_user = $conn->prepare("
             
             INSERT INTO 
@@ -60,6 +71,7 @@ function Install_System($db_name, $db_hostname, $db_user, $db_password, $db_pref
             registrationdate, 
             lastacess,
             colortheme,
+            language,
             status) 
             
             VALUES(
@@ -70,7 +82,8 @@ function Install_System($db_name, $db_hostname, $db_user, $db_password, $db_pref
             :USER_PERMISSION, 
             :USER_REGISTRATIONDATE, 
             :USER_LASTACESS, 
-            :USER_COLORTHEME, 
+            :USER_COLORTHEME,
+            :USER_LANGUAGE, 
             :USER_STATUS
             )");
           
@@ -83,6 +96,7 @@ function Install_System($db_name, $db_hostname, $db_user, $db_password, $db_pref
         $user_registrationdate = date('Y-m-d H-i-s');
         $user_lastacess = date('Y-m-d H-i-s');
         $user_colortheme = "basic";
+        $user_language = "en";
         $user_status = "true";
 
 
@@ -94,17 +108,42 @@ function Install_System($db_name, $db_hostname, $db_user, $db_password, $db_pref
         $input_user->bindParam(":USER_REGISTRATIONDATE", $user_registrationdate);
         $input_user->bindParam(":USER_LASTACESS", $user_lastacess);
         $input_user->bindParam(":USER_COLORTHEME", $user_colortheme);
+        $input_user->bindParam(":USER_LANGUAGE", $user_language);
         $input_user->bindParam(":USER_STATUS", $user_status);
 
         if(@$input_user->execute()){ $db_validation_cont++; }   
 
 
+
+
+        $input_config = $conn->prepare("
+            
+            INSERT INTO 
+            {$db_prefix}_config(            
+            url_host,
+            create_system
+            ) 
+            
+            VALUES(
+            :URL_HOST, 
+            :CREATE_SYSTEM
+            )"
+        );
+          
+        date_default_timezone_set('America/Sao_Paulo');       
+        $url_host = $_SERVER['HTTP_HOST'];
+        $config_create_system = date('Y-m-d H-i-s');
+       
+        $input_config->bindParam(":URL_HOST", $url_host);
+        $input_config->bindParam(":CREATE_SYSTEM", $config_create_system);
+       
+
+        if(@$input_config->execute()){ $db_validation_cont++; }   
+
+
         echo "Successfully completed!";
         
-        #CREATE TABLE CONFIG 
-
-        #CREATE INSERT CONFIG DATES
-
+    
    }
 
 

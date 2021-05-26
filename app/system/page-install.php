@@ -4,28 +4,28 @@
     	<div class="install-description">Fill in all fields correctly and click "Install"</div>
     	<div class="install-item">
     		<label class="install-label">Name User</label>
-    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="...">
+    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="..." maxlength="50">
     	</div>
     	<div class="install-item">
     		<label class="install-label">Password User</label>
-    		<input type="password" name="" class="install-input" autocomplete="off" placeholder="...">
+    		<input type="password" name="" class="install-input" autocomplete="off" placeholder="..." maxlength="50">
     	</div>
     	<hr>
     	<div class="install-item">
     		<label class="install-label">Database Name</label>
-    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="...">
+    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="..." maxlength="80">
     	</div>
     	<div class="install-item">
     		<label class="install-label">Database Host</label>
-    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="...">
+    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="..." maxlength="500">
     	</div>
     	<div class="install-item">
     		<label class="install-label">Database User</label>
-    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="...">
+    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="..." maxlength="80">
     	</div>
     	<div class="install-item">
     		<label class="install-label">Database Password</label>
-    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="...">
+    		<input type="text" name="" class="install-input" autocomplete="off" placeholder="..." maxlength="50">
     	</div>   
         <div class="install-item">
             <div class="install-terms">           
