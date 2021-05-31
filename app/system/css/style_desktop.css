@@ -153,4 +153,95 @@ lOGIN STYLE
 	border-radius: 3px;
 }
 
+/*------------------------------------------
+ITEMEDITE STYLE
+------------------------------------------*/
+.itemedite{
+	background: #fff;
+	width: 300px;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	z-index: 102;
+	border-radius: 3px;
+}
+
+.itemedite-group{
+	padding: 20px;
+}
+
+.itemedite-label{
+	color: #999;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.itemedite-input{
+	padding: 10px;
+	background: #f2f2f2;
+	width: 90%;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+.itemedite-input:focus{
+	border: 1px solid #00cc66;
+}
+
+.itemedite-area{
+	padding: 15px;
+	border: none;
+	outline: none;
+	background: #f2f2f2;
+	resize: none;
+	border: 1px solid #ccc;
+	width: 86.5%;
+}
+
+.itemedite-area:focus{
+	border: 1px solid #00cc66;
+}
+
+.itemedite-submit{
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 3px;
+	position: relative;
+	transform: translateX(-100%);
+	left: 100%; 
+	border: none;
+	outline: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: #00cc66;
+	color: #fff;
+	cursor: pointer;
+}
+
+.itemedite-submit:hover{
+	background: #00b359;
+}
+
+.itemedite-submit:active{
+	background: #00cc66;
+}
+
+.itemedite-background{
+	position: fixed;
+	background: rgba(0,0,0, 0.75);
+	z-index: 101;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+
+
 
