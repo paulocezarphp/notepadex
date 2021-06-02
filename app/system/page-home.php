@@ -111,14 +111,19 @@
 	</div>
 </div>
 
-<div class="itemedite">
+<div class="itemedite" id="edite-painel">
 	<form method="POST">
+		<div class="itemedite-title">Edit Note</div>
+        <div class="itemedite-description">Fill in the fields correctly</div>		
 		<div class="itemedite-group">
+
 			<label class="itemedite-label">Title</label>
 			<input type="" name="" class="itemedite-input">
 			<label class="itemedite-label">Context</label>
 			<textarea class="itemedite-area"></textarea>
-			<div>
+			<div class="itemedite-button-group">
+				<div class="itemedite-close" id="close-painel">Close</div>
+				<div></div>
 				<button type="submit" class="itemedite-submit">Save</button>
 			</div>
 		</div>

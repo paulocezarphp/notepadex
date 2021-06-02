@@ -6,4 +6,11 @@ $(document).ready(function(){
 
 	});
 
+	$('#close-painel').click(function() {
+
+         $('#edite-painel').fadeOut(1000);
+         $('.itemedite-background').fadeOut(1000);
+
+	});
+
 });
