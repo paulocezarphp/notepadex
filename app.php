@@ -34,19 +34,18 @@ function Install_System($db_name, $db_hostname, $db_user, $db_password, $db_pref
         if($user->execute()){ $db_validation_cont++; }
 
 
-        $card = $conn->prepare("CREATE TABLE IF NOT EXISTS {$db_prefix}_card(
+        $note = $conn->prepare("CREATE TABLE IF NOT EXISTS {$db_prefix}_card(
         id BIGINT AUTO_INCREMENT PRIMARY KEY,
         id_user BIGINT, 
-        card_front VARCHAR(800),
-        card_back VARCHAR(800),       
-        create_date DATETIME, 
-        last_access_date DATETIME,
-        card_level VARCHAR(20),
+        title_note VARCHAR(200),
+        context_note VARCHAR(1000),
+        color_note VARCHAR(20),      
+        create_date DATETIME,       
         status VARCHAR(10)
         )DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;");
 
-        $card->execute();
-        if($card->execute()){ $db_validation_cont++; }
+        $note->execute();
+        if($note->execute()){ $db_validation_cont++; }
 
 
         $config = $conn->prepare("CREATE TABLE IF NOT EXISTS {$db_prefix}_config(

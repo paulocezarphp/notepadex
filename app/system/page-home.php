@@ -1,6 +1,9 @@
 <?php include("menu.php"); ?>
 <div class="container">
-
+    
+   
+    <button class="button-create">New Note</button>
+    
 	<div class="container-group">
 		
 		<div class="container-item" style="background: <?php echo $blocks_list[0]; ?>;" data-info-color="<?php echo $blocks_list[0]; ?>;">

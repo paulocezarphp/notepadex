@@ -295,4 +295,16 @@ ITEMEDITE STYLE
 
 
 
+.button-create{
+	padding: 15px 50px;
+	border: none;
+	background: #555;
+	color: #fff;
+	position: relative;
+	transform: translateX(-99.5%);
+	left: 99.5%;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
 
