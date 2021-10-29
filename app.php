@@ -182,21 +182,37 @@ function Delete_User(){
 
 
 if($app_operation == "validate_login"){
- Validate_Login();
+
+   Validate_Login();
+
 }elseif($app_operation == "validate_quit"){
- Validate_Quit();
+
+   Validate_Quit();
+
 }elseif($app_operation == "save_note"){
- Save_Note();
+
+   Save_Note();
+
 }elseif($app_operation == "edite_note"){
- Edite_Note();
+
+   Edite_Note();
+
 }elseif($app_operation == "delete_note"){
- Delete_Note();
+
+   Delete_Note();
+
 }elseif($app_operation == "save_user"){
- Save_User();
+
+   Save_User();
+
 }elseif($app_operation == "edite_user"){
- Edite_User();
+
+   Edite_User();
+
 }elseif($app_operation == "delete_user"){
- Delete_User();
+
+   Delete_User();
+   
 }else{
 
 }

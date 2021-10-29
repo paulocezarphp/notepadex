@@ -3,5 +3,5 @@
    define("DATABASE","notepadex");
    define("USER","root");
    define("PASSWORD","");
-   $chave = "@Githubnotepadex";
+   define("PRIVATE_KEY","@Githubnotepadex");
 ?>

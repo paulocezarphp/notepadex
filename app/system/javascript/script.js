@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('.item-close').click(function() {
 
          $(this).parent().parent().parent().hide(1000);
-
+         
 	});
 
 	$('.item-edite').click(function() {

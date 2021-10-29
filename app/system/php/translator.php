@@ -1,6 +1,6 @@
 <?php
 
-function Traduction(){
+function Traduction($language, $key, $text_reference){
 
 }
 
